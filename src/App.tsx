@@ -31,8 +31,28 @@ function App(): React.JSX.Element {
             </Button>
             <Container>
                 <Row>
-                    <Col></Col>
-                    <Col></Col>
+                    <Col>
+                        <span
+                            style={{
+                                backgroundColor: "red",
+                                width: 100,
+                                height: 100,
+                            }}
+                        >
+                            test 4
+                        </span>
+                    </Col>
+                    <Col>
+                        <span
+                            style={{
+                                backgroundColor: "red",
+                                width: 100,
+                                height: 100,
+                            }}
+                        >
+                            test 5
+                        </span>
+                    </Col>
                 </Row>
             </Container>
         </div>
