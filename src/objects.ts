@@ -201,7 +201,7 @@ export function mergeQuestion(
         body: contentQuestion.body,
         expected: contentQuestion.expected,
         options: contentQuestion.options,
-        points: points,
+        points,
         published: false,
     };
 }
